@@ -1,0 +1,9 @@
+package.json
+package-lock.json
+public
+**/.git
+**/.svn
+**/.hg
+**/node_modules
+**/.history
+**/.next

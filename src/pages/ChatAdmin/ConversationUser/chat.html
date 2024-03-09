@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>   
+    <link rel="stylesheet" type="text/css" media="screen" href="https://cdn.conversejs.org/10.0.0/dist/converse.min.css">
+<script src="https://cdn.conversejs.org/10.0.0/dist/converse.min.js" charset="utf-8"></script>
+ 
+  </head>
+  <body>
+
+  </body>
+  <script>
+converse.initialize({
+        bosh_service_url: 'https://chat.arcade-games.live:5443/bosh/', // Please use this connection manager only for testing purposes
+        // show_controlbox_by_default: true,
+        jid: 'monty@chat.arcade-games.live',
+        // authentication: 'prebind',
+        prebind_url: 'http://chat.arcade-games.live/api/prebind',
+        // auto_login: true,
+        allow_logout: false,
+        password: 'monty123*'
+    });
+
+
+</script>
+</html>
